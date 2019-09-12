@@ -1,7 +1,7 @@
 """
-Constructs :class: `POSTagger` which builds a bigram part-of-speech tagger
-and analyzes it's performance through the frequency distribution of the
-wrong predictions.
+Constructs :class: `POSTagger` which builds an n-gram part-of-speech tagger,
+default of which is bigram part-of-speech tagger, and analyzes it's
+performance through the frequency distribution of the wrong predictions.
 
 Author:
 -------
@@ -50,10 +50,15 @@ class POSTagger:
         corresponding to a bigram tagger and '3' corresponding to a
         trigram tagger, with each of the previous levels as backoffs
 
-        Argument:
+        Arguments:
         ---------
             train_set (list):
                 First 90% of the tagged sentences used for training
+            level (int):
+                Type of tagger to be returned - '0' corresponds to
+        default tagger, '1' corresponds to a unigram tagger, '2'
+        corresponds to a bigram tagger and '3' corresponds to a
+        trigram tagger, with each of the previous levels as backoffs
 
         Returns:
         --------
@@ -107,12 +112,18 @@ class POSTagger:
         Evaluates the trained POSTagger model on test data - computes accuracy
         and frequency distribution of wrong predictions
 
+        Argument:
+        ----------
+            level (int):
+                Type of tagger to be returned - '0' corresponds to
+        default tagger, '1' corresponds to a unigram tagger, '2'
+        corresponds to a bigram tagger and '3' corresponds to a
+        trigram tagger, with each of the previous levels as backoffs
+
         Returns:
         --------
             fd (nltk.FreqDist):
                 Frequency Distribution of wrong predictions
-            level (int):
-                Type of tagger to be returned
         """
         sentences, tagged_sentences = self.data_preparation()
         partition = int(len(tagged_sentences) * self.partition_ratio)

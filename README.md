@@ -10,7 +10,7 @@ This repository tracks various research paper reviews done as a part of the cour
 |Deep Autoencoders                  | Semantic Autoencoder for Zero-Shot Learning, CVPR 2017 |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/3_Deep_Autoencoders.pdf) |&#x2611;|         
 | Convolutional Neural Networks - I     | ImageNet Classification with Deep Convolutional Neural Networks, NIPS 2012 |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/4_CNN.pdf)              |&#x2611;|         
 | Convolutional Neural Networks - II |Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks                         |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/5_FasterRCNN.pdf)              |&#x2611;        |
-| Recurrent Networks - I            |               |              |        |
+| Recurrent Networks - I            |Learning Phrase Representation using RNN Encoder-Decoder for Statistical Machine Translation |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/6_RNN.pdf)             |&#x2611;        |
 | Recurrent Networks - II           |                  |              |        |
 | Adversarial Networks              |                        |              |        |
 | Graph Neural Networks             |          |              |        |

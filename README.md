@@ -12,6 +12,6 @@ This repository tracks various research paper reviews done as a part of the cour
 | Convolutional Neural Networks - II |Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks                         |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/5_FasterRCNN.pdf)              |&#x2611;        |
 | Recurrent Networks - I            |Learning Phrase Representation using RNN Encoder-Decoder for Statistical Machine Translation |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/6_RNN.pdf)             |&#x2611;        |
 | Recurrent Networks - II           |Attention is all you need                  |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/7_Attention.pdf)              |&#x2611;        |
-| Adversarial Networks              |                        |              |        |
+| Adversarial Networks              |Generative Adversarial Networks            |[click here](https://github.com/aashishyadavally/CSCI8945-Advanced-Representation-Learning-FA19/blob/master/Paper%20Reviews/8_AdversarialNetworks)              |&#x2611;        |
 | Graph Neural Networks             |          |              |        |
 | AutoML                            |   |              |        |

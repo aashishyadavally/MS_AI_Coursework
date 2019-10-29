@@ -11,7 +11,6 @@ g1 = [('S',['DP','VP']),  # categorial rules
       ('VP',['IV']),
       ('VP',['IV','PP']), # intransitive verbs do not take DP complements, CP complements
       ('VP',['TV','DP']), # transitive verbs take DP complements
-      ('VP',['TV','PP']),
       ('VP',['TV','CP']),
       ('VP',['TV','DP','PP']),
       ('VP',['TV','DP','CP']),

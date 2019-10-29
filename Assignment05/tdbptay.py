@@ -30,7 +30,6 @@ def tdpstep(g, input_categories_parses): # compute all possible next steps from 
         return []
 
 def derive(g,beam,k):
-    global n_steps
     while beam != [] and not (min(beam)[1] == [] and min(beam)[2] == []):
         (prob0,ws0,cs0,p0) = heapq.heappop(beam)
         nextsteps = tdpstep(g,(ws0,cs0,p0))
@@ -39,7 +38,6 @@ def derive(g,beam,k):
             prob1 = prob0/float(len(nextsteps))
             if -(prob1) > k:
                 for (ws1,cs1,p1) in nextsteps:
-                    n_steps += 1
                     heapq.heappush(beam,(prob1,ws1,cs1,p1))
                     print ('pushed',(prob1,ws1,cs1)) # for trace
         print('|beam|=',len(beam)) # for trace
@@ -67,16 +65,16 @@ def parse(g,ws,k):
 # parse(g4, list('aaaa'), 0.0001)
 # parse(g4, list('aaaaa'), 0.0001)
 # parse(g4, list('aaaaaa'), 0.0001)
-# parse(g4, list('aaaaaaa'), 0.0001)
+# parse(g4, list('aaaaaaa'), 0.0000001)
 
 ############################################################################################
-# 	3. Number of steps to parse 'a': 14
-#	   Number of steps to parse 'aa': 38
-# 	   Number of steps to parse 'aaa': 104
-# 	   Number of steps to parse 'aaaa': 300 
-#	   Number of steps to parse 'aaaaa': 912 
-#	   Number of steps to parse 'aaaaaa': 2892
-# 	   Number of steps to parse 'aaaaaaa': 6896
+# 	3. Number of steps to parse 'a': 7
+#	   Number of steps to parse 'aa': 19
+# 	   Number of steps to parse 'aaa': 52
+# 	   Number of steps to parse 'aaaa': 150 
+#	   Number of steps to parse 'aaaaa': 456
+#	   Number of steps to parse 'aaaaaa': 1446
+# 	   Number of steps to parse 'aaaaaaa': 4735 
 #
 #	4. For all values of 'n' greater than or equal to 1, the number of steps required
 #          to find all parses of the sentence exceed 2^n. 

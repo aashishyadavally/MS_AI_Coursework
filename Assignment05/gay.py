@@ -9,8 +9,7 @@ g1 = [('S',['DP','VP']),  # categorial rules
       ('NP',['N']),
       ('NP',['N','PP']),
       ('VP',['IV']),
-      ('VP',['IV','PP']), # intransitive verbs do not take DP complements
-      ('VP',['IV','CP']),
+      ('VP',['IV','PP']), # intransitive verbs do not take DP complements, CP complements
       ('VP',['TV','DP']), # transitive verbs take DP complements
       ('VP',['TV','PP']),
       ('VP',['TV','CP']),

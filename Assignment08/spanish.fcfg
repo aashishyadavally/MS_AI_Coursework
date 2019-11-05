@@ -1,0 +1,15 @@
+% start S
+
+# phrasal
+S -> NP VP
+NP -> N[+anim]
+VP -> V[tense=past]N[-anim]
+VP -> V[tense=past]PP
+PP -> P NP
+
+# lexical
+P[case=acc, +anim] -> 'a'
+N[-anim] -> 'algo'
+N[+anim] -> 'alguien'
+N[num=sg,gen=masc,+anim] -> 'Juan'
+V[tense=past] -> 'vió'

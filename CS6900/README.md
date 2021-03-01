@@ -14,3 +14,6 @@ This directory tracks the assignments for the course CSCI 6900 (Applied Natural 
 | 8           | Spanish LFG                        |[click here](https://github.com/aashishyadavally/CSCI6900-NLP-FA19/blob/master/Assignment08/Assignment08.pdf)              |&#x2611;|
 | 9           | English -> LF Translations         |[click here](https://github.com/aashishyadavally/CSCI6900-NLP-FA19/blob/master/Assignment09/Submission.pdf)              |&#x2611;        |
 
+Furthermore, we were required to work on a course project of our choice as a part of the course. 
+
+Link to project details: [click here](https://github.com/aashishyadavally/CSCI6900-NLP-FA19/blob/master/Project)
